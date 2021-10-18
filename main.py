@@ -8,7 +8,7 @@ def main():
     box(gary)
 
     #Drawing the Lines
-    #Making a change on repl.it
+
 
     # Keep Screen Active
     wn = trtl.Screen()
