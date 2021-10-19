@@ -2,10 +2,10 @@ import turtle as trtl
 
 def main():
     # Create the Turtle
-    terry = trtl.Turtle()
+    sam = trtl.Turtle()
 
     # Setup the Box
-    box(terry)
+    box(sam)
 
     #Drawing the Lines
 
@@ -14,16 +14,16 @@ def main():
     wn = trtl.Screen()
     wn.mainloop()
 
-def box(terry):
+def box(sam):
     xPos = -500
     yPos = -300
-    terry.speed(0)
-    terry.penup()
-    terry.goto(xPos, yPos)
-    terry.pendown()
-    terry.goto(xPos+980, yPos)
-    terry.goto(xPos+980, yPos+630)
-    terry.goto(xPos, yPos+630)
+    sam.speed(0)
+    sam.penup()
+    sam.goto(xPos, yPos)
+    sam.pendown()
+    sam.goto(xPos + 980, yPos)
+    sam.goto(xPos + 980, yPos + 630)
+    sam.goto(xPos, yPos + 630)
     gary.goto(xPos, yPos)
 
 if __name__ == "__main__":
